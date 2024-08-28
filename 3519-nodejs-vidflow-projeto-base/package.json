@@ -1,6 +1,8 @@
 {
   "devDependencies": {
-    "json-server": "^1.0.0-beta.1"
+    "eslint": "^9.9.1",
+    "json-server": "^1.0.0-beta.1",
+    "prettier": "3.3.3"
   },
   "name": "3519-nodejs-vidflow-projeto-base",
   "version": "1.0.0",
