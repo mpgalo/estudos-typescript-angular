@@ -10,6 +10,7 @@
   "main": "script.js",
   "dependencies": {
     "anymatch": "^3.1.3",
+    "axios": "1.6.0",
     "binary-extensions": "^2.3.0",
     "braces": "^3.0.3",
     "chalk": "^5.3.0",
@@ -44,7 +45,9 @@
     "type-fest": "^4.24.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api-local": "json-server --watch backend/videos.json",
+    "lint": "eslint ."
   },
   "author": "",
   "license": "ISC"
